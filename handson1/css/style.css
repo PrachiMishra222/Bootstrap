@@ -1,0 +1,10 @@
+.material-icons {
+    vertical-align: middle;
+    -ms-text-combine-horizontal: all;
+}
+
+@media (max-width: 600px) {
+    .material-icons {
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+
+ 
+ .row > div[class*='col-'] { 
+   padding-bottom: 2rem;
+ }
+ 
+ .material-icons { 
+   font-size: 14px;
+   }
+ 
+ .new_release_icon{
+   color: red;
+  }
+ 
+ .btn{
+   border-radius: 0 !important;
+  }
+
+ .favorite_border_icon{ 
+     color: black;
+     font-size: 30px; 
+    }			
+	
+ .favorite_border_icon:hover { 
+     color: red; 
+    }
+
+    .material-icons {
+      vertical-align: middle;
+      -ms-text-combine-horizontal: all;
+  }
+
+  @media (max-width: 600px) {
+      .material-icons {
+          display: none;
+      }
+  }
+
+ 

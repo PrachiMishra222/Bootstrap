@@ -1,0 +1,25 @@
+.material-icons {
+    vertical-align: middle;
+    -ms-text-combine-horizontal: all;
+}
+
+@media (max-width: 600px) {
+    .material-icons {
+        display: none;
+        /* This is how it looks on desktop */
+    }
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-primary {
+    background-color: green;
+    border-color: green;
+}
+
+.btn:hover {
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
